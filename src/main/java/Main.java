@@ -6,7 +6,8 @@ public class Main {
 //        task167();
 //        task344();
 //        task1();
-        task27();
+//        task27();
+        task28();
     }
 
     private static void task167() {
@@ -42,4 +43,17 @@ public class Main {
         System.out.println(task27.removeElement(nums, target));
     }
 
+    private static void task28() {
+//        String first = "sadbutsad";
+//        String second = "sad";
+//        String first = "sad";
+//        String second = "sad";
+//        String first = "leetcode";
+//        String second = "leeto";
+        String first = "mississippi";
+        String second = "issip";
+
+        TwoPointers_28 task28 = new TwoPointers_28();
+        System.out.println(task28.strStr(first, second));
+    }
 }
