@@ -1,3 +1,5 @@
+import twopointers.*;
+
 import java.util.Arrays;
 
 public class Main {
@@ -7,7 +9,9 @@ public class Main {
 //        task344();
 //        task1();
 //        task27();
-        task28();
+//        task28();
+//        task125();
+        task680();
     }
 
     private static void task167() {
@@ -55,5 +59,24 @@ public class Main {
 
         TwoPointers_28 task28 = new TwoPointers_28();
         System.out.println(task28.strStr(first, second));
+    }
+
+    private static void task125() {
+//        String s = "A man, a plan, a canal: Panama";
+        String s = " ";
+//        String s = "race a car";
+
+        Palindrome_125 task125 = new Palindrome_125();
+        System.out.println(task125.isPalindrome(s));
+    }
+
+    private static void task680() {
+//        String s = "abca";
+//        String s = "aba";
+        String s = "abc";
+//        String s = "aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga";
+
+        Palindrome_680 task680 = new Palindrome_680();
+        System.out.println(task680.validPalindrome(s));
     }
 }

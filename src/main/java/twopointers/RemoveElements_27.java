@@ -1,3 +1,5 @@
+package twopointers;
+
 public class RemoveElements_27 {
     public int removeElement(int[] nums, int val) {
         int k = 0;

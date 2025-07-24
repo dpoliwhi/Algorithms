@@ -1,3 +1,5 @@
+package twopointers;
+
 public class TwoPointers_28 {
     public int strStr(String haystack, String needle) {
         if (needle.isEmpty()) {

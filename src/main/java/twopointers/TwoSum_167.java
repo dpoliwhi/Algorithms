@@ -1,3 +1,5 @@
+package twopointers;
+
 public class TwoSum_167 {
 
     public int[] twoSum(int[] numbers, int target) {
